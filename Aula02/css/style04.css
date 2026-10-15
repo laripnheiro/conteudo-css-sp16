@@ -1,0 +1,38 @@
+body{
+    background-color: brown;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+/* Definindo margens individuais */
+
+p.margin-ex1{
+    border: 2px solid coral;
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+
+/* Definindo margens com propriedade abreviada */
+
+p.margin-ex2{
+    border: 2px solid salmon;
+    margin: 60px;
+}
+
+p.margin-ex3{
+    border: 2px solid rgb(233, 32, 9);
+    margin: 60px 25px;
+}
+
+p.margin-ex4{
+    border: 2px solid rgb(182, 126, 120);
+    margin: 60px 25px 100px;
+}
+
+p.margin-ex5{
+    border: 2px solid rgb(113, 73, 68);
+    margin: 60px 25px 100px 150px;
+}
+

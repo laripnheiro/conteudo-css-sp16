@@ -1,0 +1,28 @@
+body{
+    background-color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Exemplo simples de wisdth e height */
+
+div.ex1{
+    background-color: lightblue;
+    color: saddlebrown;
+    width: 50%;
+    height: 200px;
+}
+
+/* Exemplo de max-width */
+
+div.ex2-1{
+    background-color: cornflowerblue;
+    color: saddlebrown;
+    width: 500px;
+}
+
+div.ex2-2{
+    background-color: darkturquoise;
+    color: saddlebrown;
+    max-width: 500px;
+}
+

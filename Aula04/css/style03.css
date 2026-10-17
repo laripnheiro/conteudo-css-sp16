@@ -1,0 +1,110 @@
+body{
+    background-color: palevioletred;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Exemplo inicial para flexbox */
+div.ex1{
+    background-color: darkorange;
+    color: floralwhite;
+    border: 2px solid fuchsia;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+div.ex1 div{
+    background-color: deeppink;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+div.ex2-column{
+    background-color: coral;
+    border: 2px solid peachpuff;
+    padding: 10px;
+    display: 10px;
+    /* flex-direction: row; <--- Esse é o valor padrõa */
+    flex-direction: column;
+}
+
+div.ex2-column div{
+    width: 100px;
+    height: 100px;
+    background-color:darksalmon;
+    text-align: center;
+    align-content: center;
+}
+
+div.ex2-row-reverse{
+    background-color: coral;
+    border: 2px solid peachpuff;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+
+div.ex2-row-reverse div{
+    width: 100px;
+    height: 100px;
+    background-color:darksalmon;
+    text-align: center;
+    align-content: center;
+}
+div.ex2-column-reverse{
+    background-color: coral;
+    border: 2px solid peachpuff;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column-reverse;
+}
+
+div.ex2-column-reverse div{
+    width: 100px;
+    height: 100px;
+    background-color:darksalmon;
+    text-align: center;
+    align-content: center;
+}
+
+/* Utilizando o flex-wrap */
+
+.ex3-wrap{
+    background-color: burlywood;
+    border: 2px solid orange;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* flex-wrap:nowrop  <---- valor padrão */
+}
+
+.ex3-wrap div{
+    width: 100px;
+    height: 100px;
+    background-color:darksalmon;
+    text-align: center;
+    align-content: center;
+}
+
+.ex3-wrap-reverse{
+    background-color: burlywood;
+    border: 2px solid orange;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap-reverse;
+    /* flex-wrap:nowrop  <---- valor padrão */
+}
+
+.ex3-wrap-reverse div{
+    width: 100px;
+    height: 100px;
+    background-color:darksalmon;
+    text-align: center;
+    align-content: center;
+}

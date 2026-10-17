@@ -1,0 +1,19 @@
+body{
+    background-color: palevioletred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Definindo contorno no CSS */
+p.contorno1{
+    border: 6px solid orange;
+    outline: 8px solid pink;
+}
+
+/* Definindo espaçamento entre  controno e borda de elemento */
+
+p.contorno2{
+    border: 4px solid salmon;
+    outline: 8px solid lightgoldenrodyellow;
+    outline-offset: 6px;
+    margin: 10px;
+}
